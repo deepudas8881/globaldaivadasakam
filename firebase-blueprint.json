@@ -1,0 +1,21 @@
+{
+  "entities": {
+    "StreamConfig": {
+      "title": "Stream Configuration",
+      "description": "Configuration for a broadcast stream",
+      "type": "object",
+      "properties": {
+        "title": { "type": "string", "maxLength": 100 },
+        "url": { "type": "string", "maxLength": 500 },
+        "createdAt": { "type": "string", "format": "date-time" }
+      },
+      "required": ["title", "url", "createdAt"]
+    }
+  },
+  "firestore": {
+    "broadcast_streams/{streamId}": {
+      "schema": { "$ref": "StreamConfig" },
+      "description": "Collection of streaming configurations"
+    }
+  }
+}

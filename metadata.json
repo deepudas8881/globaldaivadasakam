@@ -1,0 +1,6 @@
+{
+  "name": "One World, One Prayer",
+  "description": "Global Daivadasakam prayer gathering conducted by Sree Narayana Forum for Universal Brotherhood, Germany (Chairman: Dr. Varun Radhakrishnan) on 25 October 2026 at 7:00 PM IST.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
